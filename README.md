@@ -13,4 +13,4 @@
 #### __Leveza - Como já citamos, devido ao seu formato single thread, os recursos computacionais são consideravelmente menos exigidos ao usar a linguagem Node. A velocidade na disponibilização de um sistema para uso (deploy) e na replicação de máquinas pode crescer muito.__
 
 ## [Node.js do Zero a Maestria com diversos Projetos](https://www.udemy.com/share/105kGg3@yfTvkBxBU8n2Gf41_cCmxorRchn695FYg2dmGMU_ykMjjG-tSsCyS3uTtK8h4NTnKQ==/)
-## Ministrado pelo professor Matheus Battisti, na plataforma da [Udemy](udemy.com).
+## Ministrado pelo professor [Matheus Battisti](https://www.youtube.com/c/MatheusBattisti), na plataforma da [Udemy](udemy.com).
