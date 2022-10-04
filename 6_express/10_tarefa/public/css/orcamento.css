@@ -1,0 +1,136 @@
+:root {
+  --cor0: #ffffff;
+  --cor1: #766f68;
+  --cor2: #d6000d;
+  --cor3: #d3d3d3;
+  --cor4: #000000;
+  --cor5: #12121250;
+  --cor6: #9194967a;
+  --cor7: #111c22;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+form {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: var(--cor0);
+  background: url(../img/chris-ried-LfG7RwMM6g8-unsplash.jpg) center
+    center/cover;
+  background-color: var(--cor5);
+  background-blend-mode: color;
+}
+
+.todosForm {
+  background-color: var(--cor6);
+  padding: 2em;
+  width: 46.875rem;
+  border-radius: 0.3125rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.todosForm p {
+  font-size: 2.5em;
+  color: var(--cor0);
+  margin-bottom: 1.1em;
+}
+
+.formulario input,
+select {
+  display: flex;
+  outline: none;
+  width: 18.75rem;
+  height: 2.1875rem;
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 0.3125rem 0rem;
+  border: none;
+  border-radius: 0.3125rem;
+  padding: 0.3125rem 0.625rem;
+  cursor: pointer;
+}
+
+.formulario label {
+  color: var(--cor0);
+  font-size: 1.5em;
+}
+
+.btn {
+  margin-top: 1em;
+  text-transform: uppercase;
+  width: auto;
+  height: auto;
+  text-align: center;
+  font-size: 1em;
+  letter-spacing: 0.1em;
+  padding: 0.625rem;
+  border: 0.125rem solid var(--cor0);
+  border-radius: 0.3125rem;
+  cursor: pointer;
+  color: var(--cor0);
+  background: var(--cor2);
+}
+
+.btn:hover {
+  color: var(--cor2);
+  background: var(--cor0);
+  border: 0.125rem solid var(--cor2);
+  font-weight: bold;
+}
+
+/* Mobile */
+
+@media (max-width: 720px) {
+  .todosForm {
+    width: 22.8125rem;
+  }
+
+  .todosForm p {
+    font-size: 1.5em;
+  }
+
+  .formulario label {
+    font-size: 1.4em;
+  }
+
+  .btn {
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 360px) {
+  .todosForm {
+    width: 17.1875rem;
+  }
+
+  .todosForm p {
+    font-size: 1.4em;
+  }
+
+  .formulario input,
+  select {
+    width: 16.5625rem;
+  }
+
+  .formulario label {
+    font-size: 1.2em;
+  }
+
+  .btn {
+    font-size: 0.8em;
+  }
+}
