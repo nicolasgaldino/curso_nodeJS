@@ -1,0 +1,8 @@
+<h1>Loja do Galdino</h1>
+{{#each products}}
+  <div>
+    <h3>{{this.prodName}}</h3>
+    <p>R${{this.prodPrice}}</p>
+    <a href="/product/{{this.prodId}}">Ver mais</a>
+  </div>
+{{/each}}

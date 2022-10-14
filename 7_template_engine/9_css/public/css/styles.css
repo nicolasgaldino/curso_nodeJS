@@ -1,0 +1,27 @@
+h1 {
+  color: red;
+  font-family: sans-serif;
+}
+
+h2 {
+  color: blue;
+  font-family: sans-serif;
+}
+
+h3 {
+  color: purple;
+  font-family: sans-serif;
+}
+
+p {
+  color: gray;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
