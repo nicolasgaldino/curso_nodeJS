@@ -1,0 +1,48 @@
+* {
+  font-family: Helvetica, sans-serif;
+}
+
+#navbar {
+  border-bottom: 1px solid #ccc;
+  padding: .4rem;
+  margin-bottom: 1em;
+}
+
+#navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+
+#navbar li {
+  margin-left: 1em;
+}
+
+#navbar a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  width: 450px;
+  margin: 0 auto;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  margin: .5em;
+}
+
+.form-control label {
+  font-weight: bold;
+  margin-bottom: .3em;
+}
+
+.form-control input {
+  padding: 5px;
+}
