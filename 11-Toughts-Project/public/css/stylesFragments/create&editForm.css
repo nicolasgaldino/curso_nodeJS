@@ -1,0 +1,19 @@
+.tought-form-container a {
+  color: var(--lightOrange);
+}
+
+.tought-form-container a:hover {
+  color: var(--white);
+}
+
+.tought-form-container h1 {
+  margin: 1em 0;
+  color: var(--white);
+  border-left: 4px solid var(--lightOrange);
+  padding: .3em;
+}
+
+.tought-form-container form {
+  max-width: 30%;
+  margin-top: 1.5em;
+}

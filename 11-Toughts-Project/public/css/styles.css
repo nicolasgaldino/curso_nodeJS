@@ -1,0 +1,55 @@
+@charset "UTF-8";
+@import "./stylesFragments/navbar.css";
+@import "./stylesFragments/homePage.css";
+@import "./stylesFragments/login&register.css";
+@import "./stylesFragments/dashboard.css";
+@import "./stylesFragments/create&editForm.css";
+@import "./stylesFragments/flashMessage.css";
+@import "./stylesFragments/footer.css";
+
+
+:root {
+  --white: #ffffff;
+  --almostGray: #222222;
+  --almostBlack: #333333;
+  --lightOrange: #f6982d;
+  --messageColor: #004085;
+  --messageBackground: #cce5ff;
+  --messageBorderColor: #b8daff;
+}
+
+* {
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--almostGray);
+  color: var(--white);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* CONTAINER */
+
+.container {
+  min-height: 60vh;
+  padding: 2em;
+}
+
+/* CONTAINER */
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar {
+  width: 0.3125rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--almostGray);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--lightOrange);
+  border-radius: 5rem;
+}
+
+/* SCROLLBAR */

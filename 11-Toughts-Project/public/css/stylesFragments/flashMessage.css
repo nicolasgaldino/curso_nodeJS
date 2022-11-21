@@ -1,0 +1,10 @@
+.message {
+  padding: 1em;
+  color: var(--messageColor);
+  background-color: var(--messageBackground);
+  border: 1px solid var(--messageBorderColor);
+  border-radius: 5px;
+  text-align: center;
+  margin: 0 auto 2em;
+  max-width: 60%;
+}
